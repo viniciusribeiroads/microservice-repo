@@ -2,7 +2,7 @@ spring:
  datasource:
   username: root
   password: password
-  url: jdbc:mysql://localhost:3306/db_fornecedor?createDatabaseIfNotExist=true&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+  url: jdbc:mysql://localhost/db_fornecedor?createDatabaseIfNotExist=true&useSSL=false&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
 
   jpa:
    hibernate:
